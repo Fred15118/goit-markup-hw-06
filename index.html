@@ -21,6 +21,9 @@
                     <li class="nav__item"><a href="" class="nav__link">Portfolio</a></li>
                     <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
                 </ul>
+                <button type="button" class="phone__navbtn"><svg width="24" height="24" class="phone__navsvg">
+                    <use href="./images/icons.svg#icon-phone_menu"></use>
+                </svg></button>
             </nav>
             <address class="feedback">
                 <ul class="feedback__list list">
@@ -30,6 +33,28 @@
             </address>
         </div>
     </header>
+    <div class="phone__menu">
+        <div class="container">
+            <button type="button" class="close__menu-btn"><svg class="close__btnsvg" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg></button>
+            <ul class="nav__list list">
+                <li class="nav__item"><a href="./index.html" class="nav__link active">Studio</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
+            </ul>
+            <address class="feedback">
+                <ul class="feedback__list list">
+                    <li class="feedback__item"><a href="mailto:info@devstudio.com" class="feedback__link">info@devstudio.com</a></li>
+                    <li class="feedback__item"><a href="tel:+110001111111" class="feedback__link">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+            <ul class="phone__social list">
+                <li class="soc__item"><a href="" class="soc__link"><svg class="soc__svg" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+                <li class="soc__item"><a href="" class="soc__link"><svg class="soc__svg" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+                <li class="soc__item"><a href="" class="soc__link"><svg class="soc__svg" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+                <li class="soc__item"><a href="" class="soc__link"><svg class="soc__svg" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+            </ul>
+        </div>
+    </div>
     <main>
         <section class="hero">
             <div class="container">
@@ -69,7 +94,7 @@
                 <h2 class="team__title">Our Team</h2>
                 <ul class="team__list list">
                     <li class="team__card">
-                        <img src="./images/teamcard1.jpg" alt="Portrait of Mark Guerrero" width="264" height="260">
+                        <img srcset="./images/teamcard1.jpg 1x, ./images/x2/teamcard1x2.jpg 2x" src="./images/teamcard1.jpg"  alt="Portrait of Mark Guerrero" width="264" height="260">
                         <div class="team__wrapper">
                             <h3 class="team__subtitle">Mark Guerrero</h3>
                             <p class="team__text">Product Designer</p>
@@ -82,7 +107,7 @@
                         </div>
                     </li>
                     <li class="team__card">
-                        <img src="./images/teamcard2.jpg" alt="Portrait of Tom Ford" width="264" height="260">
+                        <img srcset="./images/teamcard2.jpg 1x, ./images/x2/teamcard2x2.jpg 2x" src="./images/teamcard2.jpg" alt="Portrait of Tom Ford" width="264" height="260">
                         <div class="team__wrapper">
                             <h3 class="team__subtitle">Tom Ford</h3>
                             <p class="team__text">Frontend Developer</p>
@@ -95,7 +120,7 @@
                         </div>
                     </li>
                     <li class="team__card">
-                        <img src="./images/teamcard3.jpg" alt="Portrait of Camila Garcia" width="264" height="260">
+                        <img srcset="./images/teamcard3.jpg 1x, ./images/x2/teamcard3x2.jpg 2x" src="./images/teamcard3.jpg" alt="Portrait of Camila Garcia" width="264" height="260">
                         <div class="team__wrapper">
                             <h3 class="team__subtitle">Camila Garcia</h3>
                             <p class="team__text">Marketing</p>
@@ -108,7 +133,7 @@
                         </div>
                     </li>
                     <li class="team__card">
-                        <img src="./images/teamcard4.jpg" alt="Portrait of Daniel Wilson" width="264" height="260">
+                        <img srcset="./images/teamcard4.jpg 1x, ./images/x2/teamcard4x2.jpg 2x" src="./images/teamcard4.jpg" alt="Portrait of Daniel Wilson" width="264" height="260">
                         <div class="team__wrapper">
                             <h3 class="team__subtitle">Daniel Wilson</h3>
                             <p class="team__text">UI Designer</p>
@@ -129,7 +154,7 @@
                 <ul class="portfolio__list list">
                     <li class="portfolio__card">
                         <div class="portfolio__overflow">
-                            <img src="./images/Portfolio1.jpg" alt="Screens of banking app" height="300">
+                            <img srcset="./images/Portfolio1.jpg 1x, ./images/x2/portfolio1x2.jpg 2x" src="./images/Portfolio1.jpg" alt="Screens of banking app" height="300">
                             <p class="overflow__fill">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio__wrapper">
@@ -139,7 +164,7 @@
                     </li>
                     <li class="portfolio__card">
                         <div class="portfolio__overflow">
-                            <img src="./images/Portfolio2.jpg" alt="Process of Cashless Payment" height="300">
+                            <img srcset="./images/Portfolio2.jpg 1x, ./images/x2/portfolio2x2.jpg 2x" src="./images/Portfolio2.jpg" alt="Process of Cashless Payment" height="300">
                             <p class="overflow__fill">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio__wrapper">
@@ -149,7 +174,7 @@
                     </li>
                     <li class="portfolio__card">
                         <div class="portfolio__overflow">
-                            <img src="./images/Portfolio3.jpg" alt="Screens of meditation app on laptop and phone" height="300">
+                            <img srcset="./images/Portfolio3.jpg 1x, ./images/x2/portfolio3x2.jpg 2x" src="./images/Portfolio3.jpg" alt="Screens of meditation app on laptop and phone" height="300">
                             <p class="overflow__fill">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio__wrapper">
@@ -159,7 +184,7 @@
                     </li>
                     <li class="portfolio__card">
                         <div class="portfolio__overflow">
-                            <img src="./images/Portfolio4.jpg" alt="View of car from inside" height="300">
+                            <img srcset="./images/Portfolio4.jpg 1x, ./images/x2/portfolio4x2.jpg 2x" src="./images/Portfolio4.jpg" alt="View of car from inside" height="300">
                             <p class="overflow__fill">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio__wrapper">
@@ -169,7 +194,7 @@
                     </li>
                     <li class="portfolio__card">
                         <div class="portfolio__overflow">
-                            <img src="./images/Portfolio5.jpg" alt="Different screens for phones" height="300">
+                            <img srcset="./images/Portfolio5.jpg 1x, ./images/x2/portfolio5x2.jpg 2x" src="./images/Portfolio5.jpg" alt="Different screens for phones" height="300">
                             <p class="overflow__fill">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio__wrapper">
@@ -179,7 +204,7 @@
                     </li>
                     <li class="portfolio__card">
                         <div class="portfolio__overflow">
-                            <img src="./images/Portfolio6.jpg" alt="Girl with phone in hands" height="300">
+                            <img srcset="./images/Portfolio6.jpg 1x, ./images/x2/portfolio6x2.jpg 2x" src="./images/Portfolio6.jpg" alt="Girl with phone in hands" height="300">
                             <p class="overflow__fill">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio__wrapper">
@@ -210,9 +235,7 @@
             <div class="footer__subscribe">
                 <p class="subscribe__fill">Subscribe</p>
                 <form class="subscribe__form">
-                    <label class="subscribe__label">
-                        <input class="subscribe__input" type="email" name="email" placeholder="E-mail">
-                    </label>
+                    <input class="subscribe__input" type="email" name="email" placeholder="E-mail">
                     <button class="subscribe__btn" type="submit">Subscribe <svg class="subscribe__svg" width="24" height="24"><use href="./images/icons.svg#icon-telegram"></use></svg></button>
                 </form>
             </div>
@@ -252,7 +275,7 @@
                     <input type="checkbox" name="user-privacy" class="modal__checkbox visually-hidden" id="user-privacy" value="true" />
                     <label for="user-privacy" class="modal__label">
                         <span class="check__span"><svg width="16" height="16" class="check__svg"><use href="./images/icons.svg#icon-checkbox"></use></svg></span>
-                        I accept the terms and conditions of the <a href="" class="modal__pplink">Privacy Policy</a>
+                        <div class="checkbox__fill"><p class="checkbox__filler">I accept the terms and conditions of the </p><a href="" class="modal__pplink">Privacy Policy</a></div>
                         </label>
                 </div>
                 <button type="submit" class="modal__btn">Send</button>
